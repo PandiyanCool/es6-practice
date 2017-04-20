@@ -1,21 +1,23 @@
-## Quick step to set environment to run Ecmascript code
+## Quick step to set environment to run Ecmascript6 code
 
 1.Install the Babel CLI and a preset
 
-`npm install --save-dev babel-cli babel-preset-env`
+```bash
+    npm install --save-dev babel-cli babel-preset-env
+```
 
 2. Create a .babelrc file
 
 ```json
-{
-  "presets": ["env"]
-}
+    {
+      "presets": ["env"]
+    }
 ```
 
 3. To run particular file
 
-```localhost$ babel filename.js | node```
+    ```localhost$ babel filename.js | node```
 
 4. To convert ES6 to ES5
 
-```localhost$ babel filename.js```
+    ```localhost$ babel filename.js```

@@ -2,7 +2,7 @@ var one, two, three;
 
 [one, two] = [1, 2];
 
-console.log(`${one} ${two}`)
+console.log(`${one} ${two}`);
 
 
 
@@ -14,13 +14,6 @@ var fruits = [
 
 var [fruitOne, fruitTwo] = fruits;
 
-
-
 console.log(`${fruits}`);
 
-console.log(`${fruitOne} 
-
-
-
-
-${fruitTwo}`)
+console.log(`${fruitOne} ${fruitTwo}`);

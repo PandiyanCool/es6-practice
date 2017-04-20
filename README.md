@@ -9,9 +9,9 @@ npm install --save-dev babel-cli babel-preset-env
 2. Create a .babelrc file
 
 ```json
-    {
-      "presets": ["env"]
-    }
+{
+  "presets": ["env"]
+}
 ```
 
 3. To run particular file
